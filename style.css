@@ -1,0 +1,170 @@
+body {
+       background-color: rgb(242, 230, 245); /* lilás */
+}
+/*Utilizei auxilio do google e videos do youtube para aprender a fazer o css, alem das aulas da Uninter*/
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.viaoda-libre-regular {
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+li{
+  color:black
+}
+li:hover{
+  color: blue; /* Altera a cor do texto ao passar o mouse */
+}
+ul{
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o preenchimento padrão */
+  margin: 0; /* Remove a margem padrão */
+  font-family: "Indie Flower", cursive; /* Define a fonte */
+  font-size: 30px; /* Define o tamanho da fonte */
+}
+a:hover {
+  color: rgb(255, 81, 0); /* Altera a cor do texto ao passar o mouse */
+  text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+}
+.textoExibido {
+display: block;
+color: rgb(202, 73, 13);
+border-radius: 10px; /* Arredonda os cantos */
+padding: 10px; /* Adiciona um preenchimento de 10 pixels */
+font-family: 'Vionda Libre', cursive;
+font-size: 30px; /* Define o tamanho da fonte */
+text-align: center; /* Centraliza o texto */}
+
+.name{  
+  font-family:"MEA CULPA", cursive; /* Define a fonte */
+  text-align: center; /* Centraliza o texto */
+  color: rgb(56, 56, 206); /* Define a cor do texto como azul */
+  font-size: 85px; /* Define o tamanho da fonte */
+  padding: 35px;
+}
+.text-large {
+  font-family:"Viaoda Libre", cursive; /* Define a fonte */
+  font-size: 40px; /* Define o tamanho da fonte */
+  color: rgb(1, 1, 17); /* Define a cor do texto como azul */
+  text-align: justify; /* Centraliza o texto */
+  text-justify: auto; /* Justifica o texto */
+  padding-bottom: 35px; 
+}
+
+.list-style-full {  
+  font-family:"Indie Flower", cursive; /* Define a fonte */
+  color: rgb(1, 1, 19); /* Define a cor do texto como azul */
+  padding: 0px; /* Remove o preenchimento da lista */
+  margin: 0px; /* Remove a margem da lista */
+  font-size: 38px; /* Define o tamanho da fonte */
+}
+
+.list-container {
+  font-family:"Marck Script", cursive;  /* Define a fonte */
+  text-align: justify; /* Justifica o texto */
+  padding: 10px;
+  margin: 15px; /* Adiciona uma margem de 15 pixels */
+  font-size: 34px; /* Define o tamanho da fonte */
+  text-align: justify;
+}
+
+.main-photo {
+  border-radius: 4%; /* Arredonda a imagem */
+  box-shadow: 10px 10px 2px #aa9bc5; /* Adiciona sombra à imagem */
+  width: 100%; /* Largura da imagem */
+  height: 100%; /* Altura da imagem */  
+  margin: 20px; /* Adiciona uma margem de 20 pixels */
+  display: block; /* Exibe a imagem como um bloco */    
+  margin-left: auto; /* Centraliza a imagem horizontalmente */
+  margin-right: auto; /* Centraliza a imagem horizontalmente */
+  box-shadow: 0px 2px 2px 4px #b799f0; /* Adiciona sombra à imagem */
+  transition: 0.3s; /* Transição suave */
+}
+
+.center-1{
+text-align: center;
+padding: 10px; /* Adiciona um preenchimento de 58 pixels */
+padding-bottom: 50px; /* Adiciona uma margem de 50 pixels */
+font-family:fantasy; /* Define a fonte */
+font-size: 38px; /* Define o tamanho da fonte */
+color: rgb(66, 66, 236); /* Define a cor do texto */
+}
+
+
+.my-table-th{ 
+  padding: 10px; /* Adiciona um preenchimento de 10 pixels */
+  text-align: center; /* Centraliza o texto */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte */
+  font-size: 30px; /* Define o tamanho da fonte */
+  column-width: 20PX;
+  color: rgb(1, 1, 17); /* Define a cor do texto */
+  background-color: rgb(199, 214, 219);
+
+ }
+my-table{
+  border-collapse: collapse;
+  width: 100%;
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left; /* Alinhamento padrão para td */
+}
+
+th {
+    text-align: center; /* Centraliza os títulos (th) */
+    }
+
+}
+ 
+ .title-list{  
+  font-size: 40px; /* Define o tamanho da fonte */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte */
+  width: 100%; /* Largura da tabela */
+  height: 100%; /* Altura da tabela */  
+  padding: 10px; /* Adiciona um preenchimento de 10 pixels */
+  margin: 10px; /* Adiciona uma margem de 20 pixels */
+  text-align: left; /* Centraliza o texto */
+
+ }
+ .footer {  
+  color: #333; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno */
+  margin: 20px; /* Espaçamento externo */
+
+}
+
+.logo-icon{
+  width: 100px; /* Largura do ícone */
+  height: 100px; /* Altura do ícone */
+  margin: 20px; /* Adiciona uma margem de 20 pixels */
+  margin-bottom: auto; /* Centraliza o ícone verticalmente */
+
+}
+.logo-text{
+  font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+  color: blue; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding-inline-start: 30px; /* Adiciona um preenchimento de 30 pixels */
+}
+.logo-text:hover {
+  color: #000; /* Cor do texto ao passar o mouse */
+  text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+  
+}
+
